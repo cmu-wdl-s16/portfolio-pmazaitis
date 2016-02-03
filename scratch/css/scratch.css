@@ -1,0 +1,17 @@
+/* Scratch CSS File, for messing about a bit */
+
+/* We can uncomment the next block to draw boxes around everything; 
+ * The asterisk selector '*' selects everything (you can combine this
+ * with other selectors)
+ */
+
+* {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  /* We can also use the shorthand notation for this:
+   *
+   * border: solid black 1px;
+   *
+   */
+}
