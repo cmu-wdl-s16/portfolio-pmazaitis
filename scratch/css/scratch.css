@@ -1,17 +1,39 @@
-/* Scratch CSS File, for messing about a bit */
-
-/* We can uncomment the next block to draw boxes around everything; 
- * The asterisk selector '*' selects everything (you can combine this
- * with other selectors)
+/* scratch.css
+ *
+ * Scratch CSS File, for messing about a bit
+ *
+ * Author: Paul Mazaitis
  */
 
+
+/*
+ * Drawing a Black Border Around Everything
+ */
+
+
+/* We can uncomment the next block to draw boxes around everything; The asterisk selector '*' selects everything (you can combine this with other selectors) */
+
+/*
 * {
   border-style: solid;
   border-color: black;
   border-width: 1px;
-  /* We can also use the shorthand notation for this:
-   *
-   * border: solid black 1px;
-   *
-   */
 }
+*/
+
+/* We can also use the shorthand notation for this: */
+
+/*
+* {
+ border: solid black 1px;
+}
+*/
+
+/* Set a base font for everything in the body */
+
+
+
+/* Change up the font for the headers */
+
+
+
