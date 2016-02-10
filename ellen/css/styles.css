@@ -1,7 +1,19 @@
 /* styles.css for Ellen portfolio page */
 
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+/* You can use a single import for all of your typefaces, or set up a different import for each typeface you want to use. */
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  font-family: Lato, sans-serif;
+}
 
 h1, h2 {
-  font-family: "Permanent Marker", Helvetica, sans-serif;
+  font-family: "Patrick Hand", Helvetica, sans-serif;
+  color: white;
+  background-color: darkblue;
+}
+
+ul, ol {
+  line-height: 1.3;
 }
