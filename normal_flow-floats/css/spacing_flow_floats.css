@@ -42,16 +42,75 @@ body {
 }
 
 /* Change up the font for the headers */
+/* Adjust spacing to stick headings closer to attached paragrpahs */
 
 h1, h2 {
   font-family: "Patrick Hand", sans-serif;
   color: #666666;
+  margin: 0px;
+  margin-top: 16px;
 }
 
-p {
+/* Let's adjust our paragraph spacing so that there's a little extra space between 'em */
 
+p {
+  margin: 0px;
+  margin-bottom: 6px;
+  line-height: 1.4; /* Always good to set a line-height before fiddling with the element spacing */
+  background-color: beige;
+  margin: 0px 15px 6px 15px; /* This declaration overrides the two margin declarations above */
 }
 
 img {
+  /* warning! Applies to all images! */
+  width: 2in;
+  float: right;
+  margin-left: 10px; /* Add space to seperate image form the surrounding content */
+}
+
+main {
+  /* This is text, make this a static width */
+  width: 6in;
+  background-color: lightgrey;
+  padding: 15px; /* Applies to the entire main element */
+  margin: 0px auto 0px auto; /* Centering trick */
+}
+
+header {
 
 }
+
+.sticker {
+  width: 300px; /* We want a static width (so, among other things, we can center this) */
+  background-color: blue;
+  padding: 10px;
+  border-radius: 35px; /* Round the corners */
+  margin: 0px auto 35px auto; /* Add spacing between the sticker and main */
+  transform: rotate(-7deg); /* Let's give the sticker a jaunty air */
+}
+
+.sticker h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  font-size: 350%;
+}
+
+.sticker h2 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+
+.sticker .lower p {
+  font-family: "Patrick Hand", serif;
+  text-align: center;
+  font-size: 200%;
+  padding: 15px;
+  border-radius: 15px;
+}
+
