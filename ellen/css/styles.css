@@ -1,19 +1,74 @@
 /* styles.css for Ellen portfolio page */
 
+/* Solutions for the homework by Paul Mazaitis; as always, ask if you have questions about anything I have in here! */
+
 /* You can use a single import for all of your typefaces, or set up a different import for each typeface you want to use. */
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
   font-family: Lato, sans-serif;
+  line-height: 1.4;
 }
 
 h1, h2 {
   font-family: "Patrick Hand", Helvetica, sans-serif;
-  color: white;
-  background-color: darkblue;
+  color: darkblue;
+  padding: 8px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  border-bottom: solid darkblue 2px;
+  padding-bottom: 2px;
+  margin-top: 14px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  margin-top: 11px;
+}
+
+p {
+  width: 700px; /* Limit our line length for all paragraphs using a static dimension */
+  margin-top: 4px;
 }
 
 ul, ol {
   line-height: 1.3;
+  margin-top: 3px;
+}
+
+header {
+  background-color: darkblue;
+  padding: 20px 50px 20px 50px;
+  width: 90%;
+  margin: 0px auto;
+  overflow: auto;
+  box-sizing: border-box; /* Keeping the padding from screwing up our centering */
+}
+
+header img {
+  float: right;
+}
+
+header h1 {
+  color: white;
+  display: inline;
+  font-size: 350%;
+  border-bottom: none;
+}
+
+main {
+  width: 80%;
+  margin: 0px auto; 
+}
+
+footer {
+  background-color: darkblue;
+  padding: 10px 50px;
+  width: 90%;
+  margin: 0px auto;
+  color: white;
+  box-sizing: border-box;
 }
