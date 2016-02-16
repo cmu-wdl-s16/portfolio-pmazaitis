@@ -1,0 +1,84 @@
+/* scratch.css
+ *
+ * Scratch CSS File, for messing about a bit
+ *
+ * Author: Paul Mazaitis
+ */
+
+/*
+ * Font imports
+ */
+
+/*
+ * Drawing a Black Border Around Everything
+ */
+
+
+/* We can uncomment the next block to draw boxes around everything; The asterisk selector '*' selects everything (you can combine this with other selectors) */
+
+/*
+* {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+*/
+
+/* We can also use the shorthand notation for this: */
+
+/*
+* {
+ border: solid black 1px;
+}
+*/
+
+
+/* Various and sundry setups for the body, header and footer */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.3;
+}
+
+h1, h2 {
+  margin-top: 8px;
+  margin-bottom:0px;
+}
+
+p {
+  margin-top: 4px;
+}
+
+header, footer {
+  margin: 20px, 0px;
+  padding: 20px;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  font-style: italic;
+}
+
+/* Laying out our portfolio */
+
+main {
+  width: 80%;
+  margin: 0px auto;
+}
+
+main p img {
+  margin: 20px;
+  float: right;
+  width: 150px;
+}
+
+main p {
+  padding: 8px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+/*  overflow: auto;*/
+}
+
+
