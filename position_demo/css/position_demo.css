@@ -91,7 +91,54 @@ main p {
 
 .graybox {
   background-color: lightgray;
-  overflow: auto;
 }
+
+/* Page Layout 
+ *
+ * We want to have a vertical stack of:
+ *
+ *
+ *  ┌─────────────────────────────────┐
+ *  │             Header              │
+ *  └─────────────────────────────────┘
+ *  ┌─────────────────────────────────┐
+ *  │                                 │
+ *  │                                 │
+ *  │            .content             │
+ *  │                                 │
+ *  │                                 │
+ *  │                                 │
+ *  └─────────────────────────────────┘
+ *  ┌─────────────────────────────────┐
+ *  │             footer              │
+ *  └─────────────────────────────────┘
+ *
+ * To accomplish this, we can use Normal Flow, and
+ * just let these stack as usual with the default of
+ * {display: block} .
+ *
+ * Inside the .content block, though, we want to divide
+ * our content into three columns:
+ *
+ *  ┌─────────┐┌───────────────────────────────────┐┌─────────┐
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  │   nav   ││               main                ││  aside  │
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  │         ││                                   ││         │
+ *  └─────────┘└───────────────────────────────────┘└─────────┘
+ *
+ * ...so we want to make .content a flex container, and then set
+ * the size ratios of nav, main, and aside to give us the affect we want.
+ *
+ */
+
+
+
+
 
 /* Sections for the list of things */
