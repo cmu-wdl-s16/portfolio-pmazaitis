@@ -137,8 +137,29 @@ main p {
  *
  */
 
+.content {
+  display: flex;
+}
 
+nav {
+  background-color: antiquewhite;
+  flex: 1;
+  margin: 20px;
+}
 
+main {
+  flex: 4;
+}
 
+aside {
+  background-color: antiquewhite;
+  flex: 1;
+  margin: 20px;
+}
+
+aside p {
+  padding: 15px;
+  font-size: 80%;
+}
 
 /* Sections for the list of things */
