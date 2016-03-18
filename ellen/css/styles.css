@@ -50,12 +50,18 @@ header {
 
 header img {
   float: right;
+  margin: 15px;
 }
 
 header h1 {
   color: white;
-  display: inline;
   font-size: 350%;
+  border-bottom: none;
+  margin-top: 0px;
+}
+
+header h2 {
+  color: white;
   border-bottom: none;
 }
 
@@ -71,4 +77,59 @@ footer {
   margin: 0px auto;
   color: white;
   box-sizing: border-box;
+}
+
+/* Portfolio */
+
+#portfolio_spread img {
+  width: 150px;
+  margin-top: 40px;
+}
+
+#portfolio_spread p {
+  width: auto;
+}
+
+#portfolio_spread {
+  display: flex;
+  flex-direction: column;
+}
+
+.fleurons, .turtles {
+  flex: 1;
+  display: flex;
+}
+
+#portfolio_spread section {
+  flex: 1;
+  display: flex;
+  margin: 15px;
+}
+
+#portfolio_spread section div {
+  flex: 1;
+}
+
+/* Styles for the whitepapers page */
+
+
+#whitepapers {
+  display: flex;
+  margin: 10px 50px;
+}
+
+#whitepapers p {
+  width: auto;
+}
+
+#whitepapers main {
+  flex: 4;
+  margin: 0px 10px;
+}
+
+#whitepapers aside {
+  flex: 1;
+  margin: 0px 10px;
+  background-color: aliceblue;
+  padding: 8px;
 }
