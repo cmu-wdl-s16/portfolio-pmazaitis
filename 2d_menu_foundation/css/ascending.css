@@ -1,0 +1,122 @@
+/*
+ * CSS file "ascending.css" for one-dimenisonal menubar demo
+ */
+
+/* General Typography */
+
+body {
+  font-family: sans-serif;
+}
+
+blockquote {
+  background-color: lightgrey;
+  padding: 15px;
+  font-style: italic;
+  border: 1px slategrey dotted;
+}
+
+/* Headers and Footers */
+
+header, footer {
+  text-align: center;
+  color: white;
+  background-color: slategray;
+  padding: 15px;
+  margin: 15px;
+}
+
+header h1 {
+  letter-spacing: 1px;
+  text-transform: uppercase
+}
+
+footer {
+  font-style: italic;
+}
+
+/* Navbar */
+
+nav>ul {
+  display: flex;
+  padding: 0px;
+  margin: 0px 15px;
+  
+}
+
+nav>ul>li {
+  flex: 1;
+  list-style: none;
+  position: relative;
+}
+
+nav>ul>li>a {
+  display: block;
+  padding: 8px;
+ background-color: darkred;
+  color: #cccccc;
+  text-decoration: none;
+}
+
+nav>ul>li>a:hover{
+  background-color: rebeccapurple;
+}
+
+.selected {
+  color: white;
+}
+
+/* 2D Menu Styles */
+
+nav>ul>li>ul {
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+nav>ul>li:hover>ul {
+  display: block;
+}
+
+nav>ul>li>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>ul>li>a {
+  display: block;
+  padding: 8px;
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+  border-bottom: solid darkgray 1px;
+}
+
+
+
+/* Images */
+
+img {
+  width: 200px;
+}
+
+/* Layout */
+
+main {
+  display: flex;
+  margin: 15px;
+}
+
+.image_col {
+  flex: 1;
+}
+
+.text_col {
+  flex: 3;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.text_col h1 {
+  margin-top: 0px;
+}
