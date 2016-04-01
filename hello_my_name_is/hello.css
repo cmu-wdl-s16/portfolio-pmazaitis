@@ -1,0 +1,37 @@
+#hello_container {
+  width: 300px;
+  margin: 0px auto;
+  background-color: blue;
+  padding: 15px 15px 5px 15px;
+  border-radius: 15px;
+  transform: rotate(-7deg);
+}
+
+#hello_container h1, #hello_container h2 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+}
+
+#hello_container h1 {
+  font-size: 350%;
+  margin-top: 7px;
+}
+
+#hello_lower {
+  background-color: white;
+  border-radius: 7px;
+}
+
+#hello_lower p {
+  font-family: "Architects Daughter", serif;
+  text-align: center;
+  font-size: 200%;
+  padding: 10px;
+}
+
+main {
+  font-family: fantasy;
+}
