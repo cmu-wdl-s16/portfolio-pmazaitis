@@ -1,0 +1,52 @@
+
+/*
+ * CSS file "slider.css" for javascript demo
+ */
+
+/* General Typography */
+
+body {
+  font-family: sans-serif;
+}
+
+blockquote {
+  background-color: lightgrey;
+  padding: 15px;
+  font-style: italic;
+  border: 1px slategrey dotted;
+}
+
+figcaption {
+  text-align: right;
+}
+
+/* Headers and Footers */
+
+header, footer {
+  text-align: center;
+  color: white;
+  background-color: slategray;
+  padding: 15px;
+  margin: 15px;
+}
+
+header h1 {
+  letter-spacing: 1px;
+  text-transform: uppercase
+}
+
+footer {
+  font-style: italic;
+}
+
+h1,h2
+{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#slider_container
+{
+  width: 600px;
+  margin: 0px auto;
+}

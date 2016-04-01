@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Slowly Sliding Pictures</title>
+  <!-- Local Styles -->
+  <link rel="stylesheet" href="css/slider.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="sss/sss.min.js"></script>
+  <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+
+  <script>
+    jQuery(function ($) {
+      $('.slider').sss({
+  slideShow : true, // Set to false to prevent SSS from automatically animating.
+startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+transition : 400, // Length (in milliseconds) of the fade transition.
+speed : 350, // Slideshow speed in milliseconds.
+showNav : true // Set to false to hide navigation arrows.
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1>Slider Demo</h1>
+    <h2>Because Flags Are Cool</h2>
+  </header>
+  <main>
+    <!--
+    We have three images to work with:
+
+    <img src="images/flag_pgh.jpeg">
+    <img src="images/flag_nm.jpeg">
+    <img src="images/flag_nz.jpeg">
+    -->
+
+    <!--
+    And let's take a look at three solutions (time allowable):
+
+    http://flexslider.woothemes.com
+    http://bxslider.com
+    http://supersimpleslider.com
+    --->
+    <div class="slider">
+      <img src="images/flag_pgh.jpeg">
+      <img src="images/flag_nm.jpeg">
+      <img src="images/flag_nz.jpeg">
+    </div>
+
+  </main>
+  <footer>
+    <p>Prepared for Web Design Lab</p>
+  </footer>
+</body>
+
+</html>
